@@ -22,7 +22,6 @@ def test_half():
 
 def test_soma():
 	assert soma(5, 5)== 10
-	assert soma(48, 2)==50
 	assert soma(-17, 6)==-11
 	assert soma(-22, -57)==-79
 	assert soma(-63.4, 148.68)==85.28
