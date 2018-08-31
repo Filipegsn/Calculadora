@@ -6,7 +6,6 @@ def test_dobro():
 	assert dobro(2)==4
 	assert dobro(-5)==-10
 	assert dobro('1')==2
-	assert dobro ('22')== 44
 	assert dobro(336.15)==672.30
 	assert dobro('Filipe')==None
 
