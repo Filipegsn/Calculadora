@@ -4,5 +4,10 @@ python:
   - "2.7"
   - "3.5"
   - "3.6"
+install:
+  - pip install -r requirements.txt
+  - pip install coveralls
 script:
-  - pytest tdd.py
+  - pytest tdd.py -v -r f --cov=.  --cov-report=html
+after_success:
+  - coveralls
