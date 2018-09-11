@@ -7,7 +7,7 @@ def test_dobro():
 	assert dobro(-5)==-10
 	assert dobro('1')==2
 	assert dobro(336.15)==672.30
-	assert dobro('Filipe')==None
+	
 
 def test_half():
 	assert half(2)==1
