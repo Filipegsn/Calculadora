@@ -15,7 +15,7 @@ def is_number(x):
 	try:
 		float(x)
 		return True
-	except ValueError:
+	except:
 		return False
 
 def soma(s=None, d=None):
